@@ -1,0 +1,84 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "May 26 2019",
+      "customerName": "Dummy Staff 1",
+      "priority": "high",
+      "status": "unresolved"
+    },
+    {
+      "id": 2,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "May 27 2019",
+      "customerName": "Dummy Staff 2",
+      "priority": "medium",
+      "status": "open"
+    },
+    {
+      "id": 3,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "May 28 2019",
+      "customerName": "Dummy Staff 3",
+      "priority": "low",
+      "status": "on hold"
+    },
+    {
+      "id": 4,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "May 29 2019",
+      "customerName": "Dummy Staff 4",
+      "priority": "high",
+      "status": "unresolved"
+    },
+    {
+      "id": 5,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "May 30 2019",
+      "customerName": "Dummy Staff 5",
+      "priority": "medium",
+      "status": "open"
+    },
+    {
+      "id": 6,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "May 31 2019",
+      "customerName": "Dummy Staff 6",
+      "priority": "low",
+      "status": "on hold"
+    },
+    {
+      "id": 7,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "June 1 2019",
+      "customerName": "Dummy Staff 7",
+      "priority": "high",
+      "status": "unresolved"
+    },
+    {
+      "id": 8,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "June 2 2019",
+      "customerName": "Dummy Staff 8",
+      "priority": "medium",
+      "status": "open"
+    },
+    {
+      "id": 9,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "June 3 2019",
+      "customerName": "Dummy Staff 9",
+      "priority": "low",
+      "status": "on hold"
+    },
+    {
+      "id": 10,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "June 4 2019",
+      "customerName": "Dummy Staff 10",
+      "priority": "high",
+      "status": "unresolved"
+    }
+  ]
+}
