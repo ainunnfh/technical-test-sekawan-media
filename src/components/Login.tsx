@@ -1,16 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Login = () => {
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const handleLogin = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    // Add your login logic here
+    if (validate()) {
+      alert("Login successful");
+    }
+  };
+  const validate = () => {
+    let result = true;
+    if (email === "" || password === null) {
+      result = false;
+      alert("Email is required");
+    }
+    if (password === "" || password === null) {
+      result = false;
+      alert("Password is required");
+    }
+
+    if (password.length < 8) {
+      result = false;
+      alert("Password must be at least 8 characters long");
+    }
+    return result;
   };
 
   return (
     <div className="w-screen min-h-screen flex items-center justify-center bg-gray-50 px-4 sm:px-6 lg:px-8">
       <div className="relative py-3 sm:max-w-xs sm:mx-auto">
         <form
-          onSubmit={handleSubmit}
+          onSubmit={handleLogin}
           className="min-h-96 px-8 py-6 mt-4 text-left bg-white rounded-xl shadow-lg"
         >
           <div className="flex flex-col justify-center items-center h-full select-none">
@@ -34,6 +55,8 @@ const Login = () => {
                 Email
               </label>
               <input
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 className="border rounded-lg px-3 py-2 mb-5 text-sm w-full outline-none dark:border-gray-500"
                 placeholder="Email Address"
               />
@@ -44,6 +67,8 @@ const Login = () => {
               </label>
               <input
                 type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
                 className="border rounded-lg px-3 py-2 mb-5 text-sm w-full outline-none dark:border-gray-500"
                 placeholder="••••••••"
               />
