@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { userDummy } from "../constans/DummyData";
 
 const Login = () => {
   const usenavigate = useNavigate();
@@ -8,7 +9,14 @@ const Login = () => {
   const handleLogin = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (validate()) {
-      usenavigate("/");
+      const user = userDummy.find(
+        (user) => user.email === email && user.password === password
+      );
+      if (user) {
+        usenavigate("/");
+      } else {
+        alert("Wrong email or password");
+      }
     }
   };
   const validate = () => {
