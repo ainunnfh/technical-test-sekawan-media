@@ -1,11 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Login from "./components/Login";
 function App() {
-  return (
-    <div className='text-2xl font-bold'>Coab pake tailwind</div>
-  );
+  return <Login />;
 }
 
 export default App;
