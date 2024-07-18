@@ -5,15 +5,20 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
+import TicketPage from "./pages/TicketPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <App name={""} email={""} role={""}  />,
   },
   {
     path: "/login-page",
     element: <LoginPage />,
+  },
+  {
+    path: "/ticket-page",
+    element: <TicketPage />,
   },
 ]);
 
