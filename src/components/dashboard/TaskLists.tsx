@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 interface IProps {
   id: number;
   description: string;
@@ -14,7 +14,7 @@ const TaskLists = () => {
     const fetchTickets = async () => {
       try {
         const response = await fetch(
-          "http://localhost:4000/tickets?_sort=date&_order=desc&_limit=5"
+          "http://localhost:4000/tasks?_sort=date&_order=desc&_limit=5"
         );
         const data = await response.json();
         setTickets(data);
@@ -28,7 +28,7 @@ const TaskLists = () => {
   console.log(tickets);
   return (
     <div>
-      <div className="w-1/2 bg-slate-200 rounded-md p-4">
+      <div className=" bg-slate-200 rounded-md p-4">
         <p className="font-semibold">Recent Tasks</p>
         {tickets.map((ticket) => (
           <div key={ticket.id}>
