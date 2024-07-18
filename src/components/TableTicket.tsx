@@ -8,9 +8,8 @@ interface IProps {
   priority: string;
   status: string;
 }
-const TableTicket: React.FC= () => {
-
-    const [tickets, setTickets] = useState<IProps[]>([]);
+const TableTicket: React.FC = () => {
+  const [tickets, setTickets] = useState<IProps[]>([]);
   useEffect(() => {
     const fetchTickets = async () => {
       try {
@@ -40,7 +39,7 @@ const TableTicket: React.FC= () => {
           </tr>
         </thead>
         <tbody>
-          {tickets.map(ticket => (
+          {tickets.map((ticket) => (
             <tr key={ticket.id}>
               <td>{ticket.id}</td>
               <td>{ticket.description}</td>
