@@ -11,10 +11,10 @@ interface IUser {
 }
 
 const userAdmin = userDummy.find((user) => user.role === "Admin");
-console.log(userAdmin);
+// console.log(userAdmin);
 
 function App({ email }: IUser) {
-  return <Sidebar email={email} />;
+  return <Sidebar email={email}>Grafik</Sidebar>;
 }
 
 export default App;
