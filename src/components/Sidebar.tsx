@@ -33,7 +33,7 @@ const Sidebar: React.FC<IProps> = (props) => {
             <ul className="mt-12">
               <li className="flex w-full justify-between text-gray-300 cursor-pointer items-center mb-6">
                 <a
-                  href="javascript:void(0)"
+                  href="/"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -52,7 +52,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
                 <a
-                  href="javascript:void(0)"
+                  href="/ticket-page"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -71,7 +71,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -87,7 +87,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -103,7 +103,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -123,7 +123,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -139,7 +139,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -240,7 +240,7 @@ const Sidebar: React.FC<IProps> = (props) => {
             <ul className="mt-12">
               <li className="flex w-full justify-between text-gray-300 hover:text-gray-500 cursor-pointer items-center mb-6">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -259,7 +259,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -285,7 +285,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -301,7 +301,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -317,7 +317,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -337,7 +337,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -353,7 +353,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
@@ -377,7 +377,7 @@ const Sidebar: React.FC<IProps> = (props) => {
               </li>
               <li className="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   className="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
                 >
                   <svg
