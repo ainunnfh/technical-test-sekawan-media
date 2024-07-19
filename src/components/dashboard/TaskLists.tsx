@@ -1,14 +1,8 @@
+import { ITicketProps } from "@/src/pages/TicketPage";
 import { useEffect, useState } from "react";
-interface IProps {
-  id: number;
-  description: string;
-  date: string;
-  customerName: string;
-  priority: string;
-  status: string;
-}
+
 const TaskLists = () => {
-  const [tickets, setTickets] = useState<IProps[]>([]);
+  const [tickets, setTickets] = useState<ITicketProps[]>([]);
 
   useEffect(() => {
     const fetchTickets = async () => {

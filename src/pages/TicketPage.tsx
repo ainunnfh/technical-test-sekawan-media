@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Sidebar from "../components/Sidebar";
 import { DataTable } from "../components/ticket/DataTable";
 import Columns from "../components/ticket/Columns";
-interface IProps {
+export interface ITicketProps {
   id: number;
   description: string;
   date: string;
@@ -11,7 +11,7 @@ interface IProps {
   status: string;
 }
 const TicketPage = () => {
-  const [tickets, setTickets] = useState<IProps[]>([]);
+  const [tickets, setTickets] = useState<ITicketProps[]>([]);
   useEffect(() => {
     const fetchTickets = async () => {
       try {

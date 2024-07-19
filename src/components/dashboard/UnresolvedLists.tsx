@@ -1,14 +1,8 @@
-import React, { useEffect, useState } from "react";
-interface IProps {
-  id: number;
-  description: string;
-  date: string;
-  customerName: string;
-  priority: string;
-  status: string;
-}
+import { ITicketProps } from "@/src/pages/TicketPage";
+import { useEffect, useState } from "react";
+
 const UnresolvedLists = () => {
-  const [tickets, setTickets] = useState<IProps[]>([]);
+  const [tickets, setTickets] = useState<ITicketProps[]>([]);
   useEffect(() => {
     const fetchTickets = async () => {
       try {
@@ -33,7 +27,10 @@ const UnresolvedLists = () => {
           {tickets
             .filter((ticket) => ticket.status === "unresolved")
             .map((ticket) => (
-              <div key={ticket.id} className="border-b border-black p-2 text-sm font-light">
+              <div
+                key={ticket.id}
+                className="border-b border-black p-2 text-sm font-light"
+              >
                 <b>{ticket.description}</b>
               </div>
             ))}

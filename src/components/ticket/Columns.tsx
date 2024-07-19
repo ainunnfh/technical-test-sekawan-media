@@ -1,14 +1,7 @@
+import { ITicketProps } from "@/src/pages/TicketPage";
 import { ColumnDef } from "@tanstack/react-table";
 
-interface IProps {
-  id: number;
-  description: string;
-  date: string;
-  customerName: string;
-  priority: string;
-  status: string;
-}
-const Columns: ColumnDef<IProps>[] = [
+const Columns: ColumnDef<ITicketProps>[] = [
   {
     accessorKey: "index",
     header: "no",
