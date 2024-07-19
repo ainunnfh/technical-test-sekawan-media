@@ -18,7 +18,6 @@ const TicketPage = () => {
         const response = await fetch("http://localhost:4000/tickets");
         const data = await response.json();
         setTickets(data);
-        console.log(data);
       } catch (error) {
         console.error("Error fetching tickets:", error);
       }
@@ -28,7 +27,7 @@ const TicketPage = () => {
   }, []);
   return (
     <Sidebar email={""}>
-      <DataTable columns={Columns} data={tickets} />
+      <DataTable columns={Columns} data={tickets}/>
     </Sidebar>
   );
 };
