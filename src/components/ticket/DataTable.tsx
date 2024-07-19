@@ -18,6 +18,8 @@ import {
 } from "src/components/ui/table";
 
 import { Button } from "../ui/button";
+import { useState } from "react";
+
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
   data: TData[];
@@ -33,6 +35,18 @@ export function DataTable<TData, TValue>({
     getCoreRowModel: getCoreRowModel(),
     getPaginationRowModel: getPaginationRowModel(),
   });
+  const [sortedData, setSortedData] = useState<TData[]>(data);
+  const [isAscending, setIsAscending] = useState<boolean>(true);
+
+  const sortDataByDate = () => {
+    const sorted = [...sortedData].sort((a: any, b: any) => {
+      const dateA = new Date(a.date).getTime();
+      const dateB = new Date(b.date).getTime();
+      return isAscending ? dateA - dateB : dateB - dateA;
+    });
+    setSortedData(sorted);
+    setIsAscending(!isAscending);
+  };
 
   return (
     <div className="rounded-md border">
