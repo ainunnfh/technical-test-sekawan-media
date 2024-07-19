@@ -2,8 +2,8 @@
   "tickets": [
     {
       "id": 1,
-      "description": "I'm experiencing a bug with the login functionality.",
-      "date": "May 26 2019",
+      "description": "Pending",
+      "date": "May 29 2019",
       "customerName": "Dummy Staff 1",
       "priority": "high",
       "status": "unresolved"
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "description": "I'm experiencing a bug with the login functionality.",
+      "description": "Unresolved task",
       "date": "May 29 2019",
       "customerName": "Dummy Staff 4",
       "priority": "high",
@@ -50,7 +50,7 @@
     },
     {
       "id": 7,
-      "description": "I'm experiencing a bug with the login functionality.",
+      "description": "Unresovled task again",
       "date": "June 1 2019",
       "customerName": "Dummy Staff 7",
       "priority": "high",
@@ -73,12 +73,106 @@
       "status": "on hold"
     },
     {
-      "id": 10,
-      "description": "I'm experiencing a bug with the login functionality.",
+      "id": 11,
+      "description": "Waiting on Feature Request",
       "date": "June 4 2019",
-      "customerName": "Dummy Staff 10",
+      "customerName": "Dummy Staff 11",
       "priority": "high",
       "status": "unresolved"
+    },
+    {
+      "id": 12,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "June 4 2019",
+      "customerName": "Dummy Staff 12",
+      "priority": "high",
+      "status": "overdue"
+    },
+    {
+      "id": 13,
+      "description": "Waiting Customer Response",
+      "date": "June 4 2019",
+      "customerName": "Dummy Staff 13",
+      "priority": "high",
+      "status": "unresolved"
+    },
+    {
+      "id": 14,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "June 4 2019",
+      "customerName": "Dummy Staff 14",
+      "priority": "high",
+      "status": "overdue"
+    },
+    {
+      "id": 15,
+      "description": "Waiting Developer Fix",
+      "date": "June 4 2019",
+      "customerName": "Dummy Staff 15",
+      "priority": "high",
+      "status": "unresolved"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "description": "Finish ticket update",
+      "date": "Jul 18 2024",
+      "status": "urgent"
+    },
+    {
+      "id": 2,
+      "description": "Create new ticket example",
+      "date": "Jul 19 2024",
+      "status": "new"
+    },
+    {
+      "id": 3,
+      "description": "Update ticket report",
+      "date": "Jul 14 2024",
+      "status": "default"
+    },
+    {
+      "id": 4,
+      "description": "Update ticket part 2",
+      "date": "Jul 25 2024",
+      "status": "urgent"
+    },
+    {
+      "id": 5,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "Jul 16 2024",
+      "status": "urgent"
+    },
+    {
+      "id": 6,
+      "description": "Create new ticket example",
+      "date": "Jul 27 2024",
+      "status": "new"
+    },
+    {
+      "id": 7,
+      "description": "Update ticket report",
+      "date": "Jun 20 2024",
+      "status": "default"
+    },
+    {
+      "id": 8,
+      "description": "Update ticket part 2",
+      "date": "Jul 1 2024",
+      "status": "urgent"
+    },
+    {
+      "id": 9,
+      "description": "I'm experiencing a bug with the login functionality.",
+      "date": "Jun 30 2024",
+      "status": "urgent"
+    },
+    {
+      "id": 10,
+      "description": "Create new ticket example",
+      "date": "Jun 29 2024",
+      "status": "new"
     }
   ]
 }
