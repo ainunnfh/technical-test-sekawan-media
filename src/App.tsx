@@ -3,6 +3,8 @@ import Sidebar from "./components/Sidebar";
 import { userDummy } from "./constans/DummyData";
 import Overview from "./components/dashboard/Overview";
 import UnresolvedLists from "./components/dashboard/UnresolvedLists";
+import TaskLists from "./components/dashboard/TaskLists";
+import Header from "./components/Header";
 
 interface IUser {
   name: string;
@@ -16,8 +18,12 @@ const userAdmin = userDummy.find((user) => user.role === "Admin");
 function App({ email }: IUser) {
   return (
     <Sidebar email={email}>
+      <Header/>
       <Overview />
-      <UnresolvedLists />
+      <div className="flex gap-3 mt-5">
+        <UnresolvedLists />
+        <TaskLists />
+      </div>
     </Sidebar>
   );
 }
